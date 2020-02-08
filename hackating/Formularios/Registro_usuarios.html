@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/graellas.css" />
+    <title>REGISTRO</title>
+</head>
+
+<body>
+    <div class="miweb">
+        <a href="../docbase.html" style="text-decoration: none;">
+            <div class="cabeza" align="center">
+               <img src="../Img/LOGO%20PNG.png">
+            </div>
+        </a>
+    </div>
+    <ul class="menu">
+        <b>
+            <li class="menu"><a class="menu" href="../Categoria_menu.html">ACTIVIDADES</a></li>
+            <li class="menu"><a class="menu" href="../Cursos_menu.html">CURSOS</a></li>
+            <li class="menu"><a class="menu" href="../Ejemplocalendario.html">CALENDARIO</a></li>
+            <li class="menu"><a class="menu" href="../casales.html">CASALES</a></li>
+            <!-- <li class="menu"><a class="menu" href="foro.html">FORO</a></li>-->
+        </b>
+    </ul><br />
+    <div class="content" style="height:auto; width:800px;">
+       <div class="fl grey">
+        <form> 
+    <h1>ENTRAR EN EL SITIO</h1> 
+    <p> 
+        <label for="username" class="username"  > Nombre de usuario: </label>
+        <input id="username" name="username" required="required" type="email" placeholder="Introduce tu email"/>
+    </p>
+    <p> 
+        <label for="password" class="youpasswd" > Contraseña:</label>
+        <input id="password" name="password" required="required" type="password" placeholder="Tu password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+    </p>
+
+    <p class="login button"> 
+        <input type="submit" value="Login" />
+        <input type="reset">
+    </p>
+    <p class="change_link">
+        Aún no eres miembro
+        <a href="#toregister" class="to_register">Regístrate</a>
+    </p>
+  </form>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <div class="fr grey">   <form  action="mysuperscript.php" autocomplete="on"> 
+    <h1> Registro</h1> 
+    <p> 
+        <label for="usernamesignup" class="uname" >Tu nombre</label>
+        <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Nombre" />
+    </p>
+    <p> 
+        <label for="emailsignup" class="youmail" > Tu email</label>
+        <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="ejemplo@mail.com"/> 
+    </p>
+    <p> 
+        <label for="passwordsignup" class="youpasswd" >Tu password </label>
+        <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+    </p>
+    <p> 
+        <label for="passwordsignup_confirm" class="youpasswd" >Confirma tu password </label>
+        <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+    </p>
+    <p class="signin button"> 
+        <input type="submit" value="Registro"/> 
+        <input type="reset">
+    </p>
+    
+  </form></div>
+        
+        
+        
+        
+        
+        
+     
+
+    </div>
+
+</body></html>
