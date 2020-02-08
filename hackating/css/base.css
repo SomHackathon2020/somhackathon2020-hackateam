@@ -1,8 +1,13 @@
-html {
+body {
     background: linear-gradient(#C8C8C8, white, white);
     cursor: url(images/cursor.cur);
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
+.encabezado {
+    box-shadow: 10px red;
+}
 div.miweb {
     margin: auto;
     width: 900px;
@@ -18,16 +23,15 @@ div.cabeza {
     margin-left: 200px;
     margin-right: 200px;
 }
+div.cabeza img{
+    border: none!important;
+}
 a{
     color: black;
     text-decoration: none;
     
 }
-#tit {
-    color: #0AAEF8;
-    font-size: 60px;
-    line-height: 0;
-}
+
 
 ul.menu {
     border: 2px solid black;
@@ -64,6 +68,7 @@ ul.menu a.menu:hover {
 }
 .content {
     margin: auto;
+    
 }
 
 
@@ -83,4 +88,8 @@ ul.menu a.menu:hover {
 }
 .ma{
     margin: auto;
+}
+
+img{
+    border: 2px solid black;
 }
