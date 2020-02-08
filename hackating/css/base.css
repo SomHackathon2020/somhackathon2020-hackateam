@@ -1,0 +1,62 @@
+html {
+    background: linear-gradient(#C8C8C8, white, white);
+    cursor: url(images/cursor.cur);
+}
+
+div.miweb {
+    margin: auto;
+    width: 900px;
+}
+
+div.cabeza {
+    border: solid 1px red;
+    background: linear-gradient(pink, white);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#tit {
+    color: #0AAEF8;
+    font-size: 60px;
+    line-height: 0;
+}
+
+ul.menu {
+    border: 2px solid black;
+    padding: 15px 0px 15px 0px;
+    background: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50px;
+}
+
+li.menu {
+    display: inline;
+}
+
+a.menu {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+ul.menu a.menu:hover {
+    color: white;
+    background: black;
+    border: 2px red solid;
+    font-size: 15px;
+}
+
+.content *{
+    margin: auto;
+}
+ .cabeza img{
+    width: 250px;
+    height: 100px;
+}

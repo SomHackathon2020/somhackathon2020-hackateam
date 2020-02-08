@@ -1,0 +1,10 @@
+td {
+    padding: 50px;
+
+}
+
+td:hover {
+    padding: 70px;
+    background-color: aqua;
+    font-size: 40px;
+}
