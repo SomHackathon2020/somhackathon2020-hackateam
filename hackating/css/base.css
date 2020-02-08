@@ -34,8 +34,8 @@ ul.menu {
     padding: 15px 0px 15px 0px;
     background: white;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 50px;
 }
 
@@ -59,7 +59,7 @@ ul.menu a.menu:hover {
 
 
  .cabeza img{
-    width: 250px;
+    width: 200px;
     height: 100px;
 }
 .content {
