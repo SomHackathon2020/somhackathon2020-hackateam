@@ -93,3 +93,9 @@ ul.menu a.menu:hover {
 img{
     border: 2px solid black;
 }
+.grey{
+    background-color: darkgray;
+    border-radius: 15px;
+    padding: 3%;
+    text-align: justify;
+}
